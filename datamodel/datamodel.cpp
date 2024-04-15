@@ -7,7 +7,7 @@
 DataModel::DataModel()
     : m_dataReceiver {new DataReceiver}
     , m_timer {new QTimer(this)}
-    , m_updateTime {20}
+    , m_updateTime {40}
 {
   connect(m_timer, &QTimer::timeout,
           this, &DataModel::onUpdateCurrentData);

@@ -9,7 +9,8 @@ if (${DOXYGEN_FOUND})
 
 # What kind of docs to generate
 set(DOXYGEN_GENERATE_HTML       YES)
-set(DOXYGEN_HTML_OUTPUT "${CMAKE_SOURCE_DIR}/dochtml")
+set(DOXYGEN_HTML_OUTPUT "${CMAKE_BINARY_DIR}/dochtml")
+
 set(DOXYGEN_GENERATE_LATEX      NO)
 set(DOXYGEN_USE_PDFLATEX        NO)
 

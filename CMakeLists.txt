@@ -21,6 +21,8 @@ list (APPEND _QML_IMPORT_PATHS ${CMAKE_SOURCE_DIR}/qml)
 set (QML_IMPORT_PATH ${_QML_IMPORT_PATHS} CACHE STRING "Path used to locate CMake modules by Qt Creator" FORCE)
 set (QML2_IMPORT_PATH ${_QML_IMPORT_PATHS} CACHE STRING "Path used to locate CMake modules by Qt Creator" FORCE)
 
+
+
 set(OTHER_FILES ${PROJECT_SOURCE_DIR}/readme.md)
 
 set(PROJECT_SOURCES
@@ -66,6 +68,8 @@ target_link_libraries(${PROJECT_NAME}
     Qt${QT_VERSION_MAJOR}::Svg
 )
 
+
+
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
-include(cmake/DoxygenSetup.cmake)
 include(cmake/Install.cmake)
+include(cmake/DoxygenSetup.cmake)
