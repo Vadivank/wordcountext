@@ -1,0 +1,7 @@
+module Base
+
+BaseButton 1.0 BaseButton.qml
+BaseControlsField 1.0 BaseControlsField.qml
+BaseSwitcher 1.0 BaseSwitcher.qml
+BaseFileDialog 1.0 BaseFileDialog.qml
+BaseProgressBar 1.0 BaseProgressBar.qml

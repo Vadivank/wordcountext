@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>StyleSettings/qmldir</file>
+        <file>StyleSettings/Style.qml</file>
+        <file>ControlsModule/qmldir</file>
+        <file>ControlsModule/Impl/qmldir</file>
+        <file>ControlsModule/Impl/ControlsView.qml</file>
+        <file>ControlsModule/Impl/DelegateButton.qml</file>
+        <file>ControlsModule/Impl/DelegateSwitcher.qml</file>
+        <file>ControlsModule/Base/qmldir</file>
+        <file>ControlsModule/Base/BaseButton.qml</file>
+        <file>ControlsModule/Base/BaseControlsField.qml</file>
+        <file>ControlsModule/Base/BaseSwitcher.qml</file>
+        <file>ChartsModule/Impl/qmldir</file>
+        <file>ChartsModule/Impl/PlotView.qml</file>
+        <file>ChartsModule/Base/qmldir</file>
+        <file>ChartsModule/Base/BaseCharts.qml</file>
+        <file>ChartsModule/Impl/DelegateBar.qml</file>
+        <file>ChartsModule/Base/BaseBar.qml</file>
+        <file>ControlsModule/Base/BaseFileDialog.qml</file>
+        <file>ControlsModule/Impl/DelegateFileDialog.qml</file>
+        <file>ControlsModule/Base/BaseProgressBar.qml</file>
+        <file>ControlsModule/Impl/DelegateProgressBar.qml</file>
+    </qresource>
+</RCC>

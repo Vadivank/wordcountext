@@ -1,0 +1,4 @@
+module Base
+
+BaseCharts 1.0 BaseCharts.qml
+BaseBar 1.0 BaseBar.qml
