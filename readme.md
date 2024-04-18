@@ -3,7 +3,7 @@
 
 ## Документация
 - [Техническое задание](specification/specification.md)
-- [Документация по проекту](https://htmlpreview.github.io/?https://github.com/Vadivank/wordcountext/blob/main/dochtml/index.html)
+
 
 ## Тестовый текст
 Приложение испытывалось на произведении _Л.Н.Толстого "Война и мир"_. Экземпляр текста размещен в папке проекта `text`
